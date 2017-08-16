@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Aid</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="myJS.js"></script>
+    <link type="text/css" rel="stylesheet" href="myStyle.css" />
+</head>
+
+<body>
+
+    <h1 id="head">Math Aid</h1>
+    <p>This website was designed to help you complete your math tasks quicker.</p>
+    <p>Choose the formula needed, enter the relevant data and puch the Calculate button.</p>
+    <br>
+    <p>You're welcome !</p>
+
+    <br>
+
+    <div class="panel panel-info" width=50%>
+        <div class="panel-heading"><b>Square</b></div>
+        <div class="panel-body">
+            <p>Enter side length (cm)
+                <input type="text" id="inptSideSquare">
+            </p>
+            <button id="btnSquare" type="button" class="button button-danger">Calculate</button>
+            <br>
+            <br>
+
+            <p class="myTitle" id="resultSqrArea">Area:</p>
+            <p class="myTitle" id="resultSqrPerimeter">Perimeter:</p>
+            <p class="myTitle" id="resultsSqr3D">3D:</p>
+        </div>
+    </div>
+
+    <div class="panel panel-info" width=50%>
+        <div class="panel-heading"><b>Rectangle</b></div>
+        <div class="panel-body">
+            <p>Enter side A length (cm)
+                <input type="text" id="inptSideArct">
+            </p>
+            <p>Enter side B length (cm)
+                <input type="text" id="inptSideBrct">
+            </p>
+            <p>Enter height (cm)
+                <input type="text" id="inptHeightrct">
+            </p>
+            <button id="btnRectangle" type="button" class="button button-danger">Calculate</button>
+            <br>
+            <br>
+
+            <p class="myTitle" id="resultRctArea">Area:</p>
+            <p class="myTitle" id="resultRctPerimeter">Perimeter:</p>
+            <p class="myTitle" id="resultsRct3D">3D:</p>
+        </div>
+    </div>
+</body>
+
+
+</html>

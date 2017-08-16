@@ -1,0 +1,34 @@
+h1 {
+    font-family: Gill Sans, Copperplate, Verdana, Century Gothic, Arial;
+    color: darkmagenta;
+}
+
+#btnSquare {
+    border-radius: 5px;
+    border-color: #4c97d9;
+    background-color: white;
+    color: #4c97d9;
+    font-weight: bold;
+}
+
+#btnSquare:hover {
+    color: white;
+    background-color: #4c97d9;
+
+}
+
+#btnRectangle {
+    border-radius: 5px;
+    border-color: #4c97d9;
+    background-color: white;
+    color: #4c97d9;
+    font-weight: bold;
+}
+
+#btnRectangle:hover {
+    color: white;
+    background-color: #4c97d9;
+
+}
+
+

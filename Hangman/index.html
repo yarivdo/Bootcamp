@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hangman Game</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="myJS.js"></script>
+    <link type="text/css" rel="stylesheet" href="myStyle.css" />
+    
+</head>
+
+<body>
+    <h1 id="head">Hangman 2017</h1>
+    <div>
+        <p>Enter a word to challenge your opponent (single word please):</p>
+    <input id="txtChallenge" type="text">
+    <button type="button" id="btnSubmit" onclick="convertChallenge()">Submit</button>
+    <p></p>
+    <p id="txtOutput"></p>
+    <h2 id="txtMessage">Go ahead</h2>
+    
+    
+    </div>
+    
+    <div id="drawing">
+        <canvas id="canvas1" width="200" height="200"></canvas>
+    </div>
+        
+    
+
+</body>
+
+
+</html>
