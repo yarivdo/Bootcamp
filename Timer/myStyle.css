@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url("digital-7.ttf") format("truetype");
+}
+body { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+h1 {
+    font-family: Gill Sans, Copperplate, Verdana, Century Gothic, Arial;
+    color: darkmagenta;
+}
+#timerArea {
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    vertical-align: middle;
+    border-style: groove;
+    box-shadow: grey 10px 10px 10px;
+    border-radius: 10px;
+}
+#digits {
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 5em;
+}
+#btnArea {
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    vertical-align: middle;
+    margin-top: 10%
+}
+.timerButtons {
+    font-size: 1.5em;
+    margin-right: 20px;
+    width: 20%;
+    height: 80px;
+    border-style: groove;
+    border-radius: 10px;
+    color: darkslateblue;
+    background-color: white;
+    border-color: darkslateblue;
+}
+.timerButtons:hover {
+    color: white;
+    background-color: darkslateblue;
+    border-color: white;
+}
+
+.knobs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+    
+}

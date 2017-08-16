@@ -1,0 +1,46 @@
+body{
+    font-size: 25px;
+    font-family: Arial;
+}
+
+#btnSave {
+    background-color: #0aad16;
+    border-style: solid;
+    border-color: #0aad16;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 5px;
+        
+}
+
+#btnSave:hover {
+    background-color: white;
+    border-color: #0aad16;
+    color: #0aad16;
+    cursor: pointer;
+    box-shadow: 3px 3px 4px 2px #579152;
+}
+
+#firstName {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: cornflowerblue;
+}
+
+#firstName:focus {
+    border-color: red;
+    box-shadow: 3px 3px 4px 2px #ed8a8a;
+}
+
+#tblDetails, th, td {
+    border-style: solid;
+    background-color: #bfdcf8;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #757af8;
+}
