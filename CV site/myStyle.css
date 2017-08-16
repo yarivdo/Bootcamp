@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Gill Sans, Copperplate, Verdana, Century Gothic;
+    font-size: 15px;
+    background-color: papayawhip
+}
+img {
+    margin-left: 50px;
+
+}
+
+h1 {
+    color: darkmagenta;
+}
+
+td {
+    padding: 5px;
+}
+
+h2 {
+    background-color:#acc0e6;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+dt {
+    font-weight: bold;
+    color: rebeccapurple;
+    font-size: 1.1em;
+}
+dd {
+    font-style: italic;
+}
