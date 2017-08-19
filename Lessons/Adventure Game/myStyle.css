@@ -1,0 +1,52 @@
+
+body{
+    background-color: #c9c9c9;
+}
+
+#myImage{
+    text-align: center;
+    padding: 2%;
+}
+#txtArea {
+    border: 6px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+#userArea {
+    border: 6px solid #1f26d9;
+    border-radius: 10px;
+    padding: 6px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 70%;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+#btnResponse {
+    margin-left: 5%;
+    border-radius: 10px;
+    border-style: groove;
+    font-weight: bold;
+    background-color: #756fb5;
+    color: white;
+    padding: 10px;
+}
+
+#btnResponse:hover {
+    box-shadow: 4px 4px 5px #b5afcc;
+}
+
+#usrTxt {
+    width: 60%;
+    padding: 15px;
+   
+}
