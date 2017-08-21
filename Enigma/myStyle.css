@@ -1,0 +1,73 @@
+body {
+    background-color: #d7ddde;
+    font-family: Arial;
+}
+
+h1 {
+    
+    color: darkmagenta;
+}
+
+#originalText {
+    border: solid 5px black;
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#btnArea {
+    text-align: center;
+    padding: 4%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#btnEncrypt {
+    padding: 2%;
+    margin: 2%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #d7ddde;
+    border: solid 2px blue;
+    border-radius: 15px;
+    color: blue;
+    
+}
+#btnEncrypt:hover {
+    color: #d7ddde;
+    background-color: blue;
+}
+
+#btnDecrypt {
+    padding: 2%;
+    margin: 2%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #d7ddde;
+    border: solid 2px red;
+    border-radius: 15px;
+    color: red;
+}
+#btnDecrypt:hover {
+    color: #d7ddde;
+    background-color: red;
+}
+
+#transformedText {
+    border: solid 5px grey;
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#txtToEncrypt, #txtOutput {
+    width: 80%;
+    height: 6em;
+    
+}
